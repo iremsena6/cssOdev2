@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: center; /* Yatay ortalama */
+    align-items: center;    /* Dikey ortalama */
+    height: 120px;          /* Tüm ekran yüksekliği */
+     }
+.container
+{
+  display: flex;
+  flex-direction: column;   /* Alt alta sıralar */
+  align-items: center;      /* Yatayda ortalar */
+  justify-content: center;  /* Dikeyde ortalar */
+  background-color: #eeeeee; /* Arkaplan rengi */
+  height: 25px;            /*Tüm ekran yüksekliği */
+ padding: 20px;            /*Kenar boşlukları*/
+}
+div.container
+{
+  margin: 0 auto;
+  width: 1330px;
+}
+.button-group {
+    display: flex;            /* Yatayda sıralama için flex */
+    gap: 3px;     /* Butonlar arasına boşluk */
+    color: red;           
+  }
+
+  table
+  {
+    table-layout: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+   height: 25px;
+   
+  }
+
+  #light
+  {
+    background-color: #7EE5DA;
+    padding: 2px 192px;
+  
+  }
+  #medium
+  {
+    background-color: #70CCC2;
+    padding: 2px 100px;
+    font-size: 13px;
+  }
+  #dark
+  { 
+    background-color: #62B3AA;
+    padding: 2px 210px;
+    font-size: 13px;
+    
+  }
+  p {
+    margin-bottom: 1px; /* Varsayılan boşluğu azalt */
+  }
+  
+  a {
+    margin-top: 0; /* Linkin üst boşluğunu sıfırla */
+  }
+  
+  footer
+  {
+      text-align: center;
+      font-size: 12px;
+  }
+
+.clr
+{
+    clear: both;
+}
+.img
+{
+height: auto;
+}
